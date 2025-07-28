@@ -12,8 +12,7 @@ app = Flask(__name__)
 # IMPORTANT: Set a secret key for session management.
 # In a real application, generate a strong, random key and keep it secret.
 # For local testing, a simple string is fine, but CHANGE THIS FOR DEPLOYMENT.
-app.secret_key = 'b\x82\x95\x89\x1e\x88\x10\x94\x13\x17\x01\x18\x0b\x08\x91\x91\x90\x99\x14\x0f\x91\x18\x16\x19' # Your secret key
-
+app.secret_key = os.environ.get('SECRET_KEY', 'default_secret_for_local_dev_only')
 
 # Configure the Gemini API with your API key from environment variable
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -186,4 +185,4 @@ def chat():
     return jsonify({"response": ai_response})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+     app.run()
