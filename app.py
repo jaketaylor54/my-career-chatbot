@@ -33,15 +33,14 @@ These are general suggestions to get you started. For more detailed information 
 # Define the list of questions YOU want the AI to ask, in order.
 # The AI will start with the first question in this list.
 AI_QUESTIONS_LIST = [
-    "To start, could you tell me a bit about your general interests or skills related to careers?",
-    "What kind of work environment do you prefer? (e.g., office, remote, outdoors, workshop, lab, traveling, mixed)",
-    "Do you enjoy working mostly alone, mostly with people, or a balance of both?",
-    "Which activities do you like doing? (Examples: solving problems, helping people, analyzing data, building things, designing, persuading, teaching, organizing, performing, etc.)",
-    "Do you have any skills, qualifications, or experience I should factor in? (e.g., degrees, licenses, special certifications, technical skills, languages, trades)",
-    "What is your attitude toward physical work? (e.g., love it, okay with it, prefer desk work)",
-    "Are there any industries or job types you don’t want? (e.g., sales, food service, military, healthcare, etc.)",
-    "Do you prefer stable, predictable work or something dynamic and changing?",
-    "Any strong personal values or interests that should influence your work? (e.g., helping the environment, supporting communities, working with technology, creativity)"
+    "To start, where do you like to work? (Like an office, outside, at home, a lab, a workshop, or traveling)",
+    "Do you enjoy working alone, with other people, or both?",
+    "Which things do you like to do? (For example, solve problems, help people, build things, design, teach, organize)",
+    "Do you have any skills or experience? (Like certficates, licenses, or languages that you speak)",
+    "How do you feel about hard work? (Do you like it, is it okay, or do you prefer sitting at a desk?)",
+    "Are there any job you don’t want? (Like sales, food service, military, or healthcare)",
+    "Do you like jobs that stay the same or change a lot?",
+    "What things are important to you in a job? (Like helping the earth, working with others, using tech, or being creative)"
 ]
 
 # --- NEW: Define SYSTEM_INSTRUCTION for Phase 1 (Questions & Fixed Recommendations) ---
