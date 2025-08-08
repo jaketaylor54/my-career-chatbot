@@ -36,7 +36,7 @@ AI_QUESTIONS_LIST = [
     "To start, where do you like to work? (Like an office, outside, at home, a lab, a workshop, or traveling)",
     "Do you enjoy working alone, with other people, or both?",
     "Which things do you like to do? (For example, solve problems, help people, build things, design, teach, organize)",
-    "Do you have any skills or experience? (Like certficates, licenses, or languages that you speak)",
+    "Do you have any skills or experience? (Like certificates, licenses, or languages that you speak)",
     "How do you feel about hard work? (Do you like it, is it okay, or do you prefer sitting at a desk?)",
     "Are there any job you don’t want? (Like sales, food service, military, or healthcare)",
     "Do you like jobs that stay the same or change a lot?",
