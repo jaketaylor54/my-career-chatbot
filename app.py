@@ -33,14 +33,29 @@ These are general suggestions to get you started. For more detailed information 
 # Define the list of questions YOU want the AI to ask, in order.
 # The AI will start with the first question in this list.
 AI_QUESTIONS_LIST = [
-    "To start, where do you like to work? (Like an office, outside, at home, a lab, a workshop, or traveling)",
-    "Do you enjoy working alone, with other people, or both?",
-    "Which things do you like to do? (For example, solve problems, help people, build things, design, teach, organize)",
-    "Do you have any skills or experience? (Like certificates, licenses, or languages that you speak)",
-    "How do you feel about hard work? (Do you like it, is it okay, or do you prefer sitting at a desk?)",
-    "Are there any job you don’t want? (Like sales, food service, military, or healthcare)",
-    "Do you like jobs that stay the same or change a lot?",
-    "What things are important to you in a job? (Like helping the earth, working with others, using tech, or being creative)"
+    "Do you like solving problems?",
+"Do you like designing things?",
+"Do you pay attention to little details?",
+"Do you like building things?",
+"Do you like working with your hands?",
+"Do you like fixing things?",
+"Do you like numbers?",
+"Are you a social person?",
+"Are you good under pressure?",
+"Do you like technology?",
+"Do you like heavy machinery?",
+"Do you like gardening?",
+"Do you like when things have rules and order?",
+"Do you like science?",
+"Do you like teaching others?",
+"Do you like taking care of animals?",
+"Are you creative?",
+"Do you like being outside for most of the day?",
+"Do you enjoy highly physical activities?",
+"Do you prefer being on a team?",
+"Do you like working on long-term projects?",
+"Do you like helping people you just met?",
+"Do you like to be the leader in a group?"
 ]
 
 # --- NEW: Define SYSTEM_INSTRUCTION for Phase 1 (Questions & Fixed Recommendations) ---
